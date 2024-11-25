@@ -50,7 +50,7 @@ const NavRight = () => {
 
   const logout = async () => {
     try {
-      await axios.get("http://localhost:1999/api/user/UserLogout");
+      await axios.get("https://multi-vendor-project.vercel.app/api/user/UserLogout");
       localStorage.removeItem("token");
       navigate("/login");
       window.location.reload()
