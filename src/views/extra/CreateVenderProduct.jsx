@@ -252,7 +252,7 @@ const SamplePage = () => {
                         <td>{getVendorProductdata[getVendorProductdata.length - 1].discount_price}</td>
                         <td>{getVendorProductdata[getVendorProductdata.length - 1].product_quantity}</td>
                         <td>{getVendorProductdata[getVendorProductdata.length - 1].categoryId.name}</td>
-                        <td>{getVendorProductdata[getVendorProductdata.length - 1].brandId.Brand_name}</td>
+                        <td>{getVendorProductdata[getVendorProductdata.length - 1].brandId?.Brand_name}</td>
                         <td>{getVendorProductdata[getVendorProductdata.length - 1].couponsId.Coupans_name}</td>
                         <td><img src={getVendorProductdata[getVendorProductdata.length - 1].product_image} alt="" width={50} /></td>
                       </tr>

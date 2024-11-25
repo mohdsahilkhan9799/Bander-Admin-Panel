@@ -50,7 +50,7 @@ console.log("getProductdata",getProductdata)
                   name="Brand_name"
                   className="form-control"
                   placeholder="Enter brand name"
-                  value={formData.Brand_name}
+                  value={formData?.Brand_name}
                   onChange={handleInputChange}
                   required
                 />
@@ -88,7 +88,7 @@ console.log("getProductdata",getProductdata)
     Array.isArray(getProductdata) && getProductdata.map((product, index) => (
         <tr key={index}>
             <td>{index + 1}</td>
-            <td>{product.Brand_name}</td>
+            <td>{product?.Brand_name}</td>
         </tr>
     ))
 )}

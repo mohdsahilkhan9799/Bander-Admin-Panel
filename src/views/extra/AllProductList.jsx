@@ -253,7 +253,7 @@ const SamplePage = () => {
                         <td>{product.discount_price}</td>
                         <td>{product.product_quantity}</td>
                         <td>{product.categoryId.name}</td>
-                        <td>{product.brandId.Brand_name}</td>
+                        <td>{product.brandId?.Brand_name}</td>
                         <td>{product.couponsId.Coupans_name}</td>
                         <td><img src={product.product_image} alt="" srcset="" width={50}/></td>
                        
