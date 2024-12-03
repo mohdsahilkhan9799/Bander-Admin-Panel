@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/<your-repo-name>/',  // Replace <your-repo-name> with your GitHub repository name
+  base: '/https://mohdsahilkhan9799.github.io/Bander-Admin-Panel/',  // Replace <your-repo-name> with your GitHub repository name
 });
